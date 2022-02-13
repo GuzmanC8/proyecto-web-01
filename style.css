@@ -1,0 +1,109 @@
+body {
+
+    background-image: url("https://d1.awsstatic.com/webteam/homepage/heroes/overlay-art/Site-Merch_What-is-AWS_Hero-Art.d92a5ae5daf0c0735f49b06814bee7a07742ba20.png");
+	background-image: url("https://www.esen.edu.sv/wp-content/uploads/2017/08/Acerca-ESEN-23.jpg");
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	background-size: center;
+	margin: 0;
+   }
+
+   ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+	background-color: #111;
+  }
+  
+  .active {
+	background-color: #0f04aa;
+  }
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: white;
+}
+
+p {
+  font-family: verdana;
+  
+}
+
+
+
+div {
+	background: rgb(255, 255, 255);
+	width: auto;
+	border: 15px solid rgb(0, 9, 128);
+	padding: 50px;
+	margin: 40px;
+	text-align: center;
+	font-size: 25px;
+}
+
+
+  .btn-group .button {
+	background-color: #0615e4;
+	border: 1px solid rgb(21, 8, 189);
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	width: 150px;
+	display: block;
+  }
+  
+  .btn-group .button:not(:last-child) {
+	border-bottom: none; 
+  }
+  
+  .btn-group .button:hover {
+	background-color: #1700eb;
+  }
+
+  label{
+    display: inline-block;
+    width: 100px;
+	background-color: white;
+}
+
+.texto {
+	background-color: white;
+	width: 300px;
+	margin-left: 530px;
+	border: 2px solid rgb(0, 0, 0);
+	padding-left: 10px;
+}
+.selfie {
+	width: 300px;  
+height: auto;  
+text-align: center;  
+padding: 15px;  
+border: 3px solid rgb(4, 0, 255); 
+}
+img {  
+	object-fit: cover;  
+	}  
